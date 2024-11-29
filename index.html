@@ -7,6 +7,9 @@
     <link rel="icon" href="https://imaadh755.github.io/COC/DarkSL.png">
     <link rel="stylesheet" href="coc.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Other meta tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00ffcc">
 </head>
 <body>
     <!-- Logo Section -->
@@ -105,5 +108,20 @@
             window.open(url, '_blank');
         }
     </script>
+    
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registered:', registration);
+                })
+                .catch(error => {
+                    console.log('Service Worker registration failed:', error);
+                });
+        });
+    }
+</script>
+    
 </body>
 </html>
