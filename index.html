@@ -22,9 +22,15 @@
         <span class="toggle-text">Dark SL <br>Developed by IMaadh</span>
     </div>
     
-<div id="install-prompt" style="display:none;">
-    <button id="install-button">Add to Home Screen</button>
+<div id="install-prompt" class="install-prompt hidden">
+    <div class="prompt-container">
+        <img src="https://imaadh755.github.io/COC/DarkSL.png" alt="Dark SL Logo" class="prompt-logo">
+        <p class="prompt-text">Add Dark SL to your Home Screen for a better experience!</p>
+        <button id="install-button" class="install-button">Add to Home Screen</button>
+        <button id="close-button" class="close-button">&times;</button>
+    </div>
 </div>
+
 
     <div class="container grid-view">
         <!-- Categories (keep the rest as is) -->
@@ -128,32 +134,32 @@
 </script>
 
     <script>
-    let deferredPrompt;
-    
-    window.addEventListener('beforeinstallprompt', (event) => {
-        // Prevent the default installation prompt
-        event.preventDefault();
-        // Store the event for later use
-        deferredPrompt = event;
+let deferredPrompt;
 
-        // Show your custom prompt (like a button or banner)
-        document.getElementById('install-prompt').style.display = 'block';
-    });
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    document.getElementById('install-prompt').classList.remove('hidden');
+});
 
-    document.getElementById('install-button').addEventListener('click', () => {
-        // Show the native install prompt
+document.getElementById('install-button').addEventListener('click', () => {
+    if (deferredPrompt) {
         deferredPrompt.prompt();
-        
-        // Wait for the user to respond to the prompt
         deferredPrompt.userChoice.then((choiceResult) => {
             if (choiceResult.outcome === 'accepted') {
-                console.log('User accepted the A2HS prompt');
+                console.log('User accepted the install prompt');
             } else {
-                console.log('User dismissed the A2HS prompt');
+                console.log('User dismissed the install prompt');
             }
             deferredPrompt = null;
         });
-    });
+    }
+    document.getElementById('install-prompt').classList.add('hidden');
+});
+
+document.getElementById('close-button').addEventListener('click', () => {
+    document.getElementById('install-prompt').classList.add('hidden');
+});
 </script>
 
     
