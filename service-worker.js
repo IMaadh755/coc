@@ -5,7 +5,7 @@ self.addEventListener('install', event => {
                 '/',
                 '/index.html',
                 '/manifest.json',
-                'https://imaadh755.github.io/COC/DarkSL.png',
+                'https://imaadh755.github.io/coc/DarkSL.png',
                 // Add other assets you want to cache
             ]);
         })
