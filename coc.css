@@ -167,3 +167,104 @@ body {
         font-size: 12px; /* Even smaller text */
     }
 }
+
+/* Add to Home Screen Prompt Styles */
+.install-prompt {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a1a;
+    border: 1px solid #00ffcc;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 255, 150, 0.4);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.prompt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prompt-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 255, 150, 0.5);
+    animation: breathe 2s infinite alternate;
+}
+
+.prompt-text {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.install-button {
+    background: linear-gradient(90deg, #00ffcc, #ff00cc);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.install-button:hover {
+    background: linear-gradient(90deg, #ff00cc, #00ffcc);
+    transform: scale(1.05);
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+/* Animation for prompt */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Breathe effect for logo */
+@keyframes breathe {
+    from {
+        box-shadow: 0 0 15px rgba(0, 255, 150, 0.5);
+    }
+    to {
+        box-shadow: 0 0 25px rgba(0, 255, 150, 1);
+    }
+}
+
