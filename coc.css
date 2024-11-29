@@ -1,0 +1,169 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle, #0d0d0d, #1a1a1a, #000000);
+    color: #fff;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: breathing 3s ease-in-out infinite;
+}
+
+/* Breathing Animation for Logo and Categories */
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller categories size */
+    gap: 20px; /* Gap between categories */
+}
+
+/* Category Card */
+.category {
+    background: linear-gradient(145deg, #1f1f1f, #292929);
+    border-radius: 12px; /* Slightly smaller radius for the categories */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 15px 10px; /* Smaller padding for a smaller size */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    animation: breathing 4s ease-in-out infinite; /* Apply breathing animation to categories */
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 255, 150, 0.5);
+    border-color: rgba(0, 255, 150, 0.6);
+}
+
+/* Neon Glow Effect */
+.category:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #00ffcc, #ff00cc);
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 12px; /* Adjusted radius for consistency */
+}
+
+.category:hover:before {
+    opacity: 1;
+}
+
+/* Category Image */
+.category img {
+    width: 80px; /* Reduced size */
+    height: 80px; /* Reduced size */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 12px; /* Reduced margin */
+    box-shadow: 0 0 20px rgba(0, 255, 150, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.category:hover img {
+    box-shadow: 0 0 25px rgba(0, 255, 150, 1);
+}
+
+/* Category Title */
+.category p {
+    font-size: 16px; /* Smaller font size */
+    font-weight: bold;
+    color: #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 8px; /* Adjusted margin */
+}
+
+/* View Toggle */
+.view-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toggle-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .category img {
+        width: 70px; /* Smaller image size for mobile */
+        height: 70px; /* Smaller image size for mobile */
+    }
+
+    .category p {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+
+    /* Grid for smaller screens */
+    .container.grid-view {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller categories on mobile */
+        gap: 15px; /* Slightly smaller gap for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .container.grid-view {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Even smaller categories */
+    }
+
+    .category {
+        padding: 12px 8px; /* Reduced padding for smaller devices */
+    }
+
+    .category img {
+        width: 60px; /* Even smaller images */
+        height: 60px; /* Even smaller images */
+    }
+
+    .category p {
+        font-size: 12px; /* Even smaller text */
+    }
+}
