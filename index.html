@@ -19,7 +19,7 @@
 
     <!-- Toggle switch for Grid View -->
     <div class="view-toggle">
-        <span class="toggle-text">Dark SL <br>Developed by IMaadh</span>
+        <span class="toggle-text">Dark SL <br> Developed by IMaadh</span>
     </div>
     
 <div id="install-prompt" class="install-prompt hidden">
@@ -31,9 +31,18 @@
     </div>
 </div>
 
+<!-- Search Bar -->
+<div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search categories..." />
+</div>
 
     <div class="container grid-view">
         <!-- Categories (keep the rest as is) -->
+        
+        <div class="category" onclick="openIframePage('https://www.clashofclans-layouts.com')">
+            <img src="https://media.lordicon.com/icons/wired/outline/12-layers.gif" alt="Clashofclan Layout">
+            <p>Base Layouts</p>
+        </div>
         <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2qqqqUL9U')">
             <img src="https://imaadh755.github.io/coc/members.gif" alt="Clan Members">
             <p>Clan Members</p>
@@ -72,7 +81,7 @@
         </div>
         <div class="category" onclick="openDirectPage('https://chat.whatsapp.com/HIDDfp0lZoJ0INgiywO1vN')">
             <img src="https://imaadh755.github.io/coc/DarkSL.png" alt="WhatsApp Group">
-            <p>WhatsApp Group</p>
+            <p>Dark SL <br> WhatsApp Group</p>
         </div>
     </div>
 
@@ -162,6 +171,22 @@ document.getElementById('close-button').addEventListener('click', () => {
 });
 </script>
 
+<script>
+// Search functionality
+document.getElementById('search-input').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const categories = document.querySelectorAll('.category');
+
+    categories.forEach(category => {
+        const categoryText = category.querySelector('p').textContent.toLowerCase();
+        if (categoryText.includes(query)) {
+            category.style.display = 'block';
+        } else {
+            category.style.display = 'none';
+        }
+    });
+});
+</script>
     
 </body>
 </html>
