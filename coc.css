@@ -320,4 +320,58 @@ body {
     }
 }
 
+/* Hero Section */
+.hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2; /* Adjust line spacing */
+    white-space: pre-line; /* Allow line breaks */
+    text-align: center; /* Center the text */
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* Ensure proper responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Adjust font size for mobile */
+    }
+}
+
+
+.hero p {
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: fadeIn 2s 1s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
 
