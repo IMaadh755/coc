@@ -1,377 +1,215 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark SL</title>
+    <link rel="icon" href="https://imaadh755.github.io/coc/DarkSL.png">
+    <link rel="stylesheet" href="coc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Other meta tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00ffcc">
+</head>
+<body>
 
-body {
-    font-family: 'Orbitron', sans-serif;
-    background: radial-gradient(circle, #0d0d0d, #1a1a1a, #000000);
-    color: #fff;
-    padding: 20px;
-    overflow-x: hidden;
-}
+<!-- Hero Section (Welcome message) -->
+<div class="hero" id="hero">
+    <div>
+        <h1>Welcome to Dark SL</h1>
+        <p>Your Ultimate Clan Experience</p>
+    </div>
+</div>
 
-/* Logo */
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="https://imaadh755.github.io/coc/DarkSL.png" alt="Dark SL Logo" class="logo">
+    </div>
 
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    animation: breathing 3s ease-in-out infinite;
-}
+    <!-- Toggle switch for Grid View -->
+    <div class="view-toggle">
+        <span class="toggle-text">Dark SL <br> Developed by IMaadh</span>
+    </div>
+    
+<div id="install-prompt" class="install-prompt hidden">
+    <div class="prompt-container">
+        <img src="https://imaadh755.github.io/coc/DarkSL.png" alt="Dark SL Logo" class="prompt-logo">
+        <p class="prompt-text">Add Dark SL to your Home Screen for a better experience!</p>
+        <button id="install-button" class="install-button">Add to Home Screen</button>
+        <button id="close-button" class="close-button">&times;</button>
+    </div>
+</div>
 
-/* Breathing Animation for Logo and Categories */
-@keyframes breathing {
-    0% {
-        transform: scale(1);
+<!-- Search Bar -->
+<div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search categories..." />
+</div>
+
+    <div class="container grid-view">
+        <!-- Categories (keep the rest as is) -->
+        
+       <div class="category" onclick="openIframePage('https://imaadh755.github.io/coc/guide.html')">
+            <img src="https://imaadh755.github.io/coc/guide.gif" alt="Clashofclan Layout">
+            <p>Clan Rules</p>
+        </div>
+ <div class="category" onclick="openIframePage('https://www.clashofclans-layouts.com')">
+            <img src="https://imaadh755.github.io/coc/base.gif" alt="Clashofclan Layout">
+            <p>Base Layouts</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2qqqqUL9U')">
+            <img src="https://imaadh755.github.io/coc/members.gif" alt="Clan Members">
+            <p>Clan Members</p>
+        </div>
+    <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2QQQQUL9U/currentwar')">
+            <img src="https://imaadh755.github.io/coc/War Status.gif" alt="War Status">
+            <p>War Status</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2QQQQUL9U/currentwar/warleague')">
+            <img src="https://imaadh755.github.io/coc/league.gif" alt="War League">
+            <p>War League</p>
+        </div>
+        <div class="category" onclick="openDirectPage('https://store.supercell.com/clashofclans')">
+            <img src="https://imaadh755.github.io/coc/gift.gif" alt="Free Gifts">
+            <p>Free Gifts</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://supercell.com/en/games/clashofclans/blog/')">
+            <img src="https://imaadh755.github.io/coc/annoucement.gif" alt="Announcements">
+            <p>Announcements</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://imaadh755.github.io/coc/Tips!.html')">
+            <img src="https://imaadh755.github.io/coc/tips.gif" alt="Tips!">
+            <p>Tips!</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://imaadh755.github.io/coc/Clash of Clash Vouchers.html')">
+            <img src="https://imaadh755.github.io/coc/voucher.gif" alt="Clash of Clan Vouchers">
+            <p>Clash of Clan Vouchers</p>
+        </div>
+        <div class="category" onclick="openIframePage('https://imaadh755.github.io/coc/Player Last Active.html')">
+            <img src="https://imaadh755.github.io/coc/lastactive.gif" alt="Player Last Active">
+            <p>Player Last Active</p>
+        </div>
+         <div class="category" onclick="openIframePage('https://imaadh755.github.io/coc/War Troops Calculator.html')">
+            <img src="https://imaadh755.github.io/coc/calculator.gif" alt="War Troops Calculator">
+            <p>War Troops Calculator</p>
+        </div>
+        <div class="category" onclick="openDirectPage('https://chat.whatsapp.com/HIDDfp0lZoJ0INgiywO1vN')">
+            <img src="https://imaadh755.github.io/coc/DarkSL.png" alt="WhatsApp Group">
+            <p>Dark SL <br> WhatsApp Group</p>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * Opens a new tab with an iframe displaying the provided URL
+         * @param {string} url - The URL to load in the iframe
+         */
+        function openIframePage(url) {
+            const newTab = window.open();
+            newTab.document.write(`
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Content Viewer</title>
+                    <style>
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                        }
+                        iframe {
+                            width: 100vw;
+                            height: 100vh;
+                            border: none;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <iframe src="${url}" allowfullscreen></iframe>
+                </body>
+                </html>
+            `);
+        }
+
+        /**
+         * Opens a URL directly in a new tab without iframe
+         * @param {string} url - The URL to open directly
+         */
+        function openDirectPage(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+    
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registered:', registration);
+                })
+                .catch(error => {
+                    console.log('Service Worker registration failed:', error);
+                });
+        });
     }
-    50% {
-        transform: scale(1.05);
+</script>
+
+    <script>
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    document.getElementById('install-prompt').classList.remove('hidden');
+});
+
+document.getElementById('install-button').addEventListener('click', () => {
+    if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the install prompt');
+            } else {
+                console.log('User dismissed the install prompt');
+            }
+            deferredPrompt = null;
+        });
     }
-    100% {
-        transform: scale(1);
-    }
-}
+    document.getElementById('install-prompt').classList.add('hidden');
+});
 
-/* Container */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+document.getElementById('close-button').addEventListener('click', () => {
+    document.getElementById('install-prompt').classList.add('hidden');
+});
+</script>
 
-.container.grid-view {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller categories size */
-    gap: 20px; /* Gap between categories */
-}
+<script>
+// Search functionality
+document.getElementById('search-input').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const categories = document.querySelectorAll('.category');
 
-/* Category Card */
-.category {
-    background: linear-gradient(145deg, #1f1f1f, #292929);
-    border-radius: 12px; /* Slightly smaller radius for the categories */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 15px 10px; /* Smaller padding for a smaller size */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    animation: breathing 4s ease-in-out infinite; /* Apply breathing animation to categories */
-}
+    categories.forEach(category => {
+        const categoryText = category.querySelector('p').textContent.toLowerCase();
+        if (categoryText.includes(query)) {
+            category.style.display = 'block';
+        } else {
+            category.style.display = 'none';
+        }
+    });
+});
+</script>
 
-.category:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 25px rgba(0, 255, 150, 0.5);
-    border-color: rgba(0, 255, 150, 0.6);
-}
+<script>
+    // Hide Hero Section after 5 seconds
+    window.onload = function () {
+        setTimeout(() => {
+            document.getElementById('hero').classList.add('hidden');
+        }, 5000);
+    };
+</script>
 
-/* Neon Glow Effect */
-.category:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(90deg, #00ffcc, #ff00cc);
-    filter: blur(20px);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 12px; /* Adjusted radius for consistency */
-}
-
-.category:hover:before {
-    opacity: 1;
-}
-
-/* Category Image */
-.category img {
-    width: 80px; /* Reduced size */
-    height: 80px; /* Reduced size */
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 12px; /* Reduced margin */
-    box-shadow: 0 0 20px rgba(0, 255, 150, 0.5);
-    transition: box-shadow 0.3s ease;
-}
-
-.category:hover img {
-    box-shadow: 0 0 25px rgba(0, 255, 150, 1);
-}
-
-/* Category Title */
-.category p {
-    font-size: 16px; /* Smaller font size */
-    font-weight: bold;
-    color: #00ffcc;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 8px; /* Adjusted margin */
-}
-
-/* View Toggle */
-.view-toggle {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.toggle-text {
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 10px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .category img {
-        width: 70px; /* Smaller image size for mobile */
-        height: 70px; /* Smaller image size for mobile */
-    }
-
-    .category p {
-        font-size: 14px; /* Smaller text for mobile */
-    }
-
-    /* Grid for smaller screens */
-    .container.grid-view {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller categories on mobile */
-        gap: 15px; /* Slightly smaller gap for mobile */
-    }
-}
-
-@media (max-width: 480px) {
-    .container.grid-view {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Even smaller categories */
-    }
-
-    .category {
-        padding: 12px 8px; /* Reduced padding for smaller devices */
-    }
-
-    .category img {
-        width: 60px; /* Even smaller images */
-        height: 60px; /* Even smaller images */
-    }
-
-    .category p {
-        font-size: 12px; /* Even smaller text */
-    }
-}
-
-/* Add to Home Screen Prompt Styles */
-.install-prompt {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #1a1a1a;
-    border: 1px solid #00ffcc;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 255, 150, 0.4);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    z-index: 1000;
-    animation: fadeIn 0.5s ease-in-out;
-}
-
-.hidden {
-    display: none;
-}
-
-.prompt-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.prompt-logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    box-shadow: 0 0 15px rgba(0, 255, 150, 0.5);
-    animation: breathe 2s infinite alternate;
-}
-
-.prompt-text {
-    color: #fff;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    margin: 10px 0;
-}
-
-.install-button {
-    background: linear-gradient(90deg, #00ffcc, #ff00cc);
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.install-button:hover {
-    background: linear-gradient(90deg, #ff00cc, #00ffcc);
-    transform: scale(1.05);
-}
-
-.close-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    background: transparent;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    transition: color 0.2s ease;
-}
-
-.close-button:hover {
-    color: #ff0000;
-}
-
-/* Animation for prompt */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Breathe effect for logo */
-@keyframes breathe {
-    from {
-        box-shadow: 0 0 15px rgba(0, 255, 150, 0.5);
-    }
-    to {
-        box-shadow: 0 0 25px rgba(0, 255, 150, 1);
-    }
-}
-
-/* Search Bar */
-.search-bar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-#search-input {
-    width: 80%;
-    max-width: 400px;
-    padding: 10px 15px;
-    border: 2px solid transparent;
-    border-radius: 25px;
-    font-size: 16px;
-    background: #1a1a1a;
-    color: #fff;
-    outline: none;
-    transition: box-shadow 0.3s ease;
-    animation: neon-border 6s linear infinite;
-}
-
-#search-input:focus {
-    box-shadow: 0 0 15px #00ffcc, 0 0 30px #ff00cc;
-    animation: neon-border-focus 1.5s linear infinite;
-}
-
-/* Neon Border Animation */
-@keyframes neon-border {
-    0% {
-        box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
-    }
-    50% {
-        box-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 30px #ff00cc;
-    }
-    100% {
-        box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
-    }
-}
-
-/* Neon Focus Animation */
-@keyframes neon-border-focus {
-    0% {
-        box-shadow: 0 0 15px #ff00cc, 0 0 30px #ff00cc, 0 0 45px #ff00cc;
-    }
-    50% {
-        box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc, 0 0 45px #00ffcc;
-    }
-    100% {
-        box-shadow: 0 0 15px #ff00cc, 0 0 30px #ff00cc, 0 0 45px #ff00cc;
-    }
-}
-
-/* Hero Section */
-.hero {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 1000;
-    color: #fff;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    line-height: 1.2; /* Adjust line spacing */
-    white-space: pre-line; /* Allow line breaks */
-    text-align: center; /* Center the text */
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-
-/* Ensure proper responsiveness on smaller screens */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem; /* Adjust font size for mobile */
-    }
-}
-
-
-.hero p {
-    font-size: 1.5rem;
-    opacity: 0;
-    animation: fadeIn 2s 1s forwards;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.hidden {
-    display: none;
-}
-
-
-
+    
+</body>
+</html>
