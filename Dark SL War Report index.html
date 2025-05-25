@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete Clan War Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        button { padding: 10px 15px; background: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background: #45a049; }
+        textarea { width: 100%; height: 300px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Complete Clan War Report</h1>
+    <textarea id="htmlInput" placeholder="Paste entire war log HTML here..."></textarea>
+    <button onclick="generateFullReport()">Generate Full Report</button>
+
+    <script>
+        function generateFullReport() {
+            const html = document.getElementById('htmlInput').value;
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            const reportData = [];
+            // Header row
+            reportData.push([
+                'Position', 
+                'Player Name', 
+                'Attack 1 - Base', 
+                'TH', 
+                'Stars', 
+                'Attack 2 - Base', 
+                'TH', 
+                'Stars'
+            ]);
+
+            // Process all clan1 members
+            doc.querySelectorAll('.clan1').forEach(member => {
+                const position = member.querySelector('.dot.small')?.textContent.trim() || '';
+                const playerName = member.querySelector('.player-name')?.textContent.trim() || '';
+                const attacks = member.querySelectorAll('.members-position-attack');
+
+                // Parse both attacks
+                const attack1 = parseAttack(attacks[0]);
+                const attack2 = parseAttack(attacks[1]);
+
+                reportData.push([
+                    position,
+                    playerName,
+                    attack1.base || '',
+                    attack1.th || '',
+                    attack1.stars || '',
+                    attack2.base || '',
+                    attack2.th || '',
+                    attack2.stars || ''
+                ]);
+            });
+
+            // Create Excel file
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.aoa_to_sheet(reportData);
+            
+            // Add some styling
+            ws['!cols'] = [
+                {wch: 8},  // Position
+                {wch: 20}, // Player Name
+                {wch: 12}, // Attack 1 Base
+                {wch: 5},  // TH
+                {wch: 8},  // Stars
+                {wch: 12}, // Attack 2 Base
+                {wch: 5},  // TH
+                {wch: 8}   // Stars
+            ];
+
+            XLSX.utils.book_append_sheet(wb, ws, "War Report");
+            XLSX.writeFile(wb, "Complete_War_Report.xlsx");
+        }
+
+        function parseAttack(attackDiv) {
+            if (!attackDiv) return {};
+            
+            return {
+                base: attackDiv.querySelector('.dot.xxsmall')?.textContent.trim() || '',
+                th: attackDiv.querySelector('.icon-xsmall')?.getAttribute('title')?.replace('TH ', '') || '',
+                stars: attackDiv.querySelectorAll('.fas.fa-star.stars-win').length + '★'
+            };
+        }
+    </script>
+</body>
+</html>
