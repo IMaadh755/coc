@@ -2,28 +2,187 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dark SL War Report</title>
   <style>
-    html, body {
+    body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      font-family: Arial, sans-serif;
       overflow: hidden;
-      background-color: #000; /* Optional: helps with dark backgrounds */
     }
+
+    #container {
+      display: flex;
+      height: 100vh;
+    }
+
+    #sidebar {
+      width: 150px;
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 100;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    #sidebar h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #34495e;
+    }
+
+    #sidebar button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    #sidebar button:hover {
+      background: #2980b9;
+      transform: translateX(5px);
+    }
+
+    #sidebar button.active {
+      background: #16a085;
+      font-weight: bold;
+    }
+
+    #iframe-container {
+      flex: 1;
+      position: relative;
+      margin-left: -10px;
+      overflow: hidden;
+    }
+
     iframe {
       width: 100%;
       height: 100%;
       border: none;
-      display: block;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    iframe.fade-out {
+      opacity: 0;
+    }
+
+    #toggle-btn {
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      z-index: 1000;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s;
+    }
+
+    #toggle-btn:hover {
+      background: #34495e;
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      #sidebar {
+        position: fixed;
+        height: 100vh;
+        z-index: 999;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+
+      #sidebar.visible {
+        transform: translateX(0);
+      }
+
+      #toggle-btn {
+        display: block;
+      }
     }
   </style>
 </head>
 <body>
-  <iframe 
-    src="https://bae46366-3495-45c7-9bff-3859b97ed6ab-00-36dnw3u5gyrsj.pike.replit.dev/"
-    allowfullscreen
-  ></iframe>
+  <button id="toggle-btn">☰</button>
+
+  <div id="container">
+    <div id="sidebar">
+      <h3>Select Server</h3>
+      <button id="server1-btn" class="active">Server Mango</button>
+      <button id="server2-btn">Server Apple</button>
+    </div>
+
+    <div id="iframe-container">
+      <iframe id="site-frame" src="https://bae46366-3495-45c7-9bff-3859b97ed6ab-00-36dnw3u5gyrsj.pike.replit.dev" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    const server1Btn = document.getElementById('server1-btn');
+    const server2Btn = document.getElementById('server2-btn');
+    const siteFrame = document.getElementById('site-frame');
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggle-btn');
+
+    const server1Url = 'https://bae46366-3495-45c7-9bff-3859b97ed6ab-00-36dnw3u5gyrsj.pike.replit.dev';
+    const server2Url = 'https://war-report-mbna.onrender.com';
+
+    function switchServer(url, activeBtn, inactiveBtn) {
+      siteFrame.classList.add('fade-out'); // Start fade-out
+      setTimeout(() => {
+        siteFrame.src = url; // Change URL
+        siteFrame.classList.remove('fade-out'); // Fade in after loading starts
+      }, 500);
+
+      activeBtn.classList.add('active');
+      inactiveBtn.classList.remove('active');
+      hideSidebarOnMobile();
+    }
+
+    server1Btn.addEventListener('click', () => {
+      switchServer(server1Url, server1Btn, server2Btn);
+    });
+
+    server2Btn.addEventListener('click', () => {
+      switchServer(server2Url, server2Btn, server1Btn);
+    });
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('visible');
+    });
+
+    function hideSidebarOnMobile() {
+      if (window.innerWidth <= 768) {
+        sidebar.classList.remove('visible');
+      }
+    }
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) {
+        sidebar.classList.remove('visible');
+      }
+    });
+  </script>
 </body>
 </html>
