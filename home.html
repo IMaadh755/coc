@@ -3,110 +3,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark SL</title>
+    <title>Dark SL | Ultimate Clan Experience</title>
+    <meta name="description" content="Your portal to the Dark SL clan - strategies, rules, war status and more">
     <link rel="icon" href="https://imaadh755.github.io/coc/DarkSL.png">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-        <!-- Other meta tags -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="manifest" href="json/manifest.json">
-    <meta name="theme-color" content="#00ffcc">
+    <meta name="theme-color" content="#0a0a0a">
 </head>
 <body>
-
-<!-- Hero Section (Welcome message) -->
-<div class="hero" id="hero">
-    <div>
-        <h1>Welcome to Dark SL</h1>
-        <p>Your Ultimate Clan Experience</p>
-    </div>
-</div>
-
-    <!-- Logo Section -->
-    <div class="logo-container">
-        <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo" class="logo">
-    </div>
-
-    <!-- Toggle switch for Grid View -->
-    <div class="view-toggle">
-        <span class="toggle-text">Dark SL <br> Developed by IMaadh</span>
-    </div>
-    
-<div id="install-prompt" class="install-prompt hidden">
-    <div class="prompt-container">
-        <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo" class="prompt-logo">
-        <p class="prompt-text">Add Dark SL to your Home Screen for a better experience!</p>
-        <button id="install-button" class="install-button">Add to Home Screen</button>
-        <button id="close-button" class="close-button">&times;</button>
-    </div>
-</div>
-
-<!-- Search Bar -->
-<div class="search-bar">
-    <input type="text" id="search-input" placeholder="Search categories..." />
-</div>
-
-    <div class="container grid-view">
-        <!-- Categories (keep the rest as is) -->
-        
-	<div class="category" onclick="openDirectPage('https://script.google.com/macros/s/AKfycbzSn1PgJSIXfIjvJyETNi7LzuXMQ1rTBoAQCwIbLgJ6RBaiFOABTtkECHtw4uXZPPtz/exec')">
-            <img src="https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png" alt="CWL Report">
-            <p>CWL Report</p>
-        </div>
-	    <div class="category" onclick="openIframePage('src/strategies.html')">
-            <img src="img/strategies.png" alt="Attack Strategies">
-            <p>Attack Strategies</p>
-        </div>
-	   <div class="category" onclick="openIframePage('src/guide.html')">
-            <img src="img/Rules.jpeg" alt="Clashofclan Layout">
-            <p>Clan Rules</p>
-        </div>
- <div class="category" onclick="openIframePage('https://www.clashofclans-layouts.com')">
-            <img src="img/Base.jpeg" alt="Clashofclan Layout">
-            <p>Base Layouts</p>
-        </div>
-        <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2qqqqUL9U')">
-            <img src="img/members.jpeg" alt="Clan Members">
-            <p>Clan Members</p>
-        </div>
-    <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2QQQQUL9U/currentwar')">
-            <img src="img/War.jpeg" alt="War Status">
-            <p>War Status</p>
-        </div>
-        <div class="category" onclick="openIframePage('https://www.warreport.app/#/clans/2QQQQUL9U/currentwar/warleague')">
-            <img src="img/CWL.jpeg" alt="War League">
-            <p>War League</p>
-        </div>
-        <div class="category" onclick="openDirectPage('https://store.supercell.com/clashofclans')">
-            <img src="img/Gifts.jpeg" alt="Free Gifts">
-            <p>Free Gifts</p>
-        </div>
-        <div class="category" onclick="openIframePage('https://supercell.com/en/games/clashofclans/blog/')">
-            <img src="img/announcement.jpg" alt="Announcements">
-            <p>Announcements</p>
-        </div>
-        <div class="category" onclick="openIframePage('src/Tips!.html')">
-            <img src="img/tips.png" alt="Tips!">
-            <p>Tips!</p>
-        </div>
-        <div class="category" onclick="openIframePage('src/Player Last Active.html')">
-            <img src="img/last-active.jpeg" alt="Player Last Active">
-            <p>Player Last Active</p>
-        </div>
-         <div class="category" onclick="openIframePage('src/War Troops Calculator.html')">
-            <img src="img/Calculator.png" alt="War Troops Calculator">
-            <p>War Troops Calculator</p>
-        </div>
-        <div class="category" onclick="openDirectPage('https://chat.whatsapp.com/HIDDfp0lZoJ0INgiywO1vN')">
-            <img src="img/DarkSL.png" alt="WhatsApp Group">
-            <p>Dark SL <br> WhatsApp Group</p>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo">
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Initializing Dark SL Portal...</p>
         </div>
     </div>
 
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo">
+            </div>
+            <h1 class="hero-title">
+                <span class="title-part">DARK</span>
+                <span class="title-part">SL</span>
+            </h1>
+            <p class="hero-subtitle">Your Ultimate Clan Experience</p>
+            <div class="hero-scroll-indicator">
+                <div class="scroll-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Header with Logo and Search -->
+        <header class="main-header">
+            <div class="header-logo">
+                <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo">
+                <div class="logo-pulse"></div>
+            </div>
+            <div class="header-search">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search categories...">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="header-toggle">
+                <span class="toggle-text">Dark SL Portal</span>
+                <span class="toggle-developer">Developed by IMaadh</span>
+            </div>
+        </header>
+
+        <!-- Categories Grid -->
+        <div class="categories-grid" id="categoriesGrid">
+            <!-- Categories will be populated here -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Clan Rules</a>
+                    <a href="#" class="footer-link">Contact</a>
+                    <a href="#" class="footer-link">About</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2023 Dark SL Clan. All rights reserved.
+            </div>
+        </footer>
+    </div>
+
+    <!-- Install Prompt -->
+    <div class="install-prompt" id="installPrompt">
+        <div class="prompt-content">
+            <button class="close-prompt" id="closePrompt">&times;</button>
+            <div class="prompt-logo">
+                <img src="https://imaadh755.github.io/coc/img/DarkSL.png" alt="Dark SL Logo">
+            </div>
+            <h3 class="prompt-title">Install Dark SL Portal</h3>
+            <p class="prompt-message">Add to your home screen for quick access and better experience</p>
+            <button class="prompt-button" id="installButton">Install Now</button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
     <script>
-        /**
-         * Opens a new tab with an iframe displaying the provided URL
-         * @param {string} url - The URL to load in the iframe
-         */
+        // Category data
+        const categories = [
+            {
+                title: "CWL Report",
+                icon: "https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png",
+                action: "direct",
+                url: "https://script.google.com/macros/s/AKfycbzSn1PgJSIXfIjvJyETNi7LzuXMQ1rTBoAQCwIbLgJ6RBaiFOABTtkECHtw4uXZPPtz/exec"
+            },
+            {
+                title: "Attack Strategies",
+                icon: "img/strategies.png",
+                action: "iframe",
+                url: "src/strategies.html"
+            },
+            {
+                title: "Clan Rules",
+                icon: "img/Rules.jpeg",
+                action: "iframe",
+                url: "src/guide.html"
+            },
+            {
+                title: "Base Layouts",
+                icon: "img/Base.jpeg",
+                action: "iframe",
+                url: "https://www.clashofclans-layouts.com"
+            },
+            {
+                title: "Clan Members",
+                icon: "img/members.jpeg",
+                action: "iframe",
+                url: "https://www.warreport.app/#/clans/2qqqqUL9U"
+            },
+            {
+                title: "War Status",
+                icon: "img/War.jpeg",
+                action: "iframe",
+                url: "https://www.warreport.app/#/clans/2QQQQUL9U/currentwar"
+            },
+            {
+                title: "War League",
+                icon: "img/CWL.jpeg",
+                action: "iframe",
+                url: "https://www.warreport.app/#/clans/2QQQQUL9U/currentwar/warleague"
+            },
+            {
+                title: "Free Gifts",
+                icon: "img/Gifts.jpeg",
+                action: "direct",
+                url: "https://store.supercell.com/clashofclans"
+            },
+            {
+                title: "Announcements",
+                icon: "img/announcement.jpg",
+                action: "iframe",
+                url: "https://supercell.com/en/games/clashofclans/blog/"
+            },
+            {
+                title: "Tips!",
+                icon: "img/tips.png",
+                action: "iframe",
+                url: "src/Tips!.html"
+            },
+            {
+                title: "Player Last Active",
+                icon: "img/last-active.jpeg",
+                action: "iframe",
+                url: "src/Player Last Active.html"
+            },
+            {
+                title: "War Troops Calculator",
+                icon: "img/Calculator.png",
+                action: "iframe",
+                url: "src/War Troops Calculator.html"
+            },
+            {
+                title: "WhatsApp Group",
+                icon: "img/DarkSL.png",
+                action: "direct",
+                url: "https://chat.whatsapp.com/HIDDfp0lZoJ0INgiywO1vN"
+            }
+        ];
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Simulate loading
+            setTimeout(() => {
+                document.getElementById('loadingScreen').classList.add('loaded');
+                
+                // Show hero section
+                document.getElementById('hero').classList.add('active');
+                
+                // Hide hero after animation
+                setTimeout(() => {
+                    document.getElementById('hero').classList.add('hidden');
+                }, 4000);
+            }, 2000);
+
+            // Render categories
+            renderCategories();
+            
+            // Initialize service worker
+            initServiceWorker();
+            
+            // Setup event listeners
+            setupEventListeners();
+        });
+
+        // Render categories to the grid
+        function renderCategories() {
+            const grid = document.getElementById('categoriesGrid');
+            grid.innerHTML = '';
+            
+            categories.forEach((category, index) => {
+                const categoryElement = document.createElement('div');
+                categoryElement.className = 'category-card';
+                categoryElement.innerHTML = `
+                    <div class="category-icon">
+                        <img src="${category.icon}" alt="${category.title}">
+                        <div class="icon-hover"></div>
+                    </div>
+                    <h3 class="category-title">${category.title}</h3>
+                    <div class="category-overlay">
+                        <button class="category-button" data-action="${category.action}" data-url="${category.url}">
+                            Open ${category.title}
+                        </button>
+                    </div>
+                `;
+                
+                // Add staggered animation delay
+                categoryElement.style.animationDelay = `${index * 0.1}s`;
+                
+                grid.appendChild(categoryElement);
+            });
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            // Category click handlers
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('category-button')) {
+                    const action = e.target.getAttribute('data-action');
+                    const url = e.target.getAttribute('data-url');
+                    
+                    if (action === 'iframe') {
+                        openIframePage(url);
+                    } else if (action === 'direct') {
+                        openDirectPage(url);
+                    }
+                }
+                
+                // Also allow clicking anywhere on the card
+                if (e.target.closest('.category-card')) {
+                    const card = e.target.closest('.category-card');
+                    const button = card.querySelector('.category-button');
+                    if (button) {
+                        const action = button.getAttribute('data-action');
+                        const url = button.getAttribute('data-url');
+                        
+                        if (action === 'iframe') {
+                            openIframePage(url);
+                        } else if (action === 'direct') {
+                            openDirectPage(url);
+                        }
+                    }
+                }
+            });
+            
+            // Search functionality
+            const searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase();
+                const cards = document.querySelectorAll('.category-card');
+                
+                cards.forEach(card => {
+                    const title = card.querySelector('.category-title').textContent.toLowerCase();
+                    if (title.includes(query)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Back to top button
+            const backToTop = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+            
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Install prompt
+            let deferredPrompt;
+            const installButton = document.getElementById('installButton');
+            const closePrompt = document.getElementById('closePrompt');
+            const installPrompt = document.getElementById('installPrompt');
+            
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+                installPrompt.classList.add('active');
+            });
+            
+            installButton.addEventListener('click', async () => {
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    const { outcome } = await deferredPrompt.userChoice;
+                    if (outcome === 'accepted') {
+                        installPrompt.classList.remove('active');
+                    }
+                    deferredPrompt = null;
+                }
+            });
+            
+            closePrompt.addEventListener('click', () => {
+                installPrompt.classList.remove('active');
+            });
+        }
+
+        // Open iframe page
         function openIframePage(url) {
             const newTab = window.open();
             newTab.document.write(`
@@ -115,104 +355,73 @@
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Content Viewer</title>
+                    <title>Dark SL Portal - Content Viewer</title>
                     <style>
                         body {
                             margin: 0;
                             padding: 0;
                             overflow: hidden;
+                            background: #0a0a0a;
                         }
                         iframe {
                             width: 100vw;
                             height: 100vh;
                             border: none;
                         }
+                        .loading {
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: #0a0a0a;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            z-index: 1000;
+                        }
+                        .loading-spinner {
+                            width: 50px;
+                            height: 50px;
+                            border: 5px solid rgba(0, 255, 150, 0.3);
+                            border-radius: 50%;
+                            border-top-color: #00ffcc;
+                            animation: spin 1s ease-in-out infinite;
+                        }
+                        @keyframes spin {
+                            to { transform: rotate(360deg); }
+                        }
                     </style>
                 </head>
                 <body>
-                    <iframe src="${url}" allowfullscreen></iframe>
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                    </div>
+                    <iframe src="${url}" allowfullscreen onload="document.querySelector('.loading').style.display='none'"></iframe>
                 </body>
                 </html>
             `);
         }
 
-        /**
-         * Opens a URL directly in a new tab without iframe
-         * @param {string} url - The URL to open directly
-         */
+        // Open direct page
         function openDirectPage(url) {
             window.open(url, '_blank');
         }
-    </script>
-    
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('scipt/service-worker.js')
-                .then(registration => {
-                    console.log('Service Worker registered:', registration);
-                })
-                .catch(error => {
-                    console.log('Service Worker registration failed:', error);
+
+        // Initialize service worker
+        function initServiceWorker() {
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('scipt/service-worker.js')
+                        .then(registration => {
+                            console.log('Service Worker registered:', registration);
+                        })
+                        .catch(error => {
+                            console.log('Service Worker registration failed:', error);
+                        });
                 });
-        });
-    }
-</script>
-
-    <script>
-let deferredPrompt;
-
-window.addEventListener('beforeinstallprompt', (event) => {
-    event.preventDefault();
-    deferredPrompt = event;
-    document.getElementById('install-prompt').classList.remove('hidden');
-});
-
-document.getElementById('install-button').addEventListener('click', () => {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        deferredPrompt.userChoice.then((choiceResult) => {
-            if (choiceResult.outcome === 'accepted') {
-                console.log('User accepted the install prompt');
-            } else {
-                console.log('User dismissed the install prompt');
             }
-            deferredPrompt = null;
-        });
-    }
-    document.getElementById('install-prompt').classList.add('hidden');
-});
-
-document.getElementById('close-button').addEventListener('click', () => {
-    document.getElementById('install-prompt').classList.add('hidden');
-});
-</script>
-
-<script>
-// Search functionality
-document.getElementById('search-input').addEventListener('input', function () {
-    const query = this.value.toLowerCase();
-    const categories = document.querySelectorAll('.category');
-
-    categories.forEach(category => {
-        const categoryText = category.querySelector('p').textContent.toLowerCase();
-        if (categoryText.includes(query)) {
-            category.style.display = 'block';
-        } else {
-            category.style.display = 'none';
         }
-    });
-});
-</script>
-
-<script>
-    // Hide Hero Section after 5 seconds
-    window.onload = function () {
-        setTimeout(() => {
-            document.getElementById('hero').classList.add('hidden');
-        }, 3000);
-    };
-</script>
-
+    </script>
 </body>
 </html>
