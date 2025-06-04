@@ -757,9 +757,11 @@
             }
             
             .categories-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+    gap: 25px;
+    margin-bottom: 50px;
+}
             
             .header-logo {
                 width: 80px;
