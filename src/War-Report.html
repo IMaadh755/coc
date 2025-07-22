@@ -42,80 +42,67 @@
             background-attachment: fixed;
         }
 
-        /* Orientation Warning */
-        .orientation-warning {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.9);
-            z-index: 1000;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-        
-        .orientation-warning i {
-            font-size: 3rem;
-            color: var(--accent-gold);
-            margin-bottom: 20px;
-            animation: pulse 2s infinite;
-        }
-        
-        .orientation-warning h2 {
-            color: var(--accent-gold);
-            font-family: 'Orbitron', sans-serif;
-            margin-bottom: 20px;
-            font-size: 1.8rem;
-        }
-        
-        .orientation-warning p {
-            color: var(--text-light);
-            margin-bottom: 30px;
-            max-width: 500px;
-        }
-        
-        .rotate-btn {
-            background: var(--accent-gold);
-            color: var(--primary-dark);
-            border: none;
-            padding: 12px 25px;
-            border-radius: 50px;
-            font-family: 'Orbitron', sans-serif;
-            font-weight: bold;
-            cursor: pointer;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-        }
-        
-        .rotate-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-        }
-        
-        @media screen and (orientation:portrait) {
-            .orientation-warning {
-                display: flex;
-            }
-            
-            .content {
-                display: none;
-            }
-        }
-        
-        @media screen and (orientation:landscape) {
-            .orientation-warning {
-                display: none;
-            }
-            
-            .content {
-                display: block;
-            }
-        }
+    .orientation-warning {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.continue-btn {
+    background: var(--accent-gold);
+    color: var(--primary-dark);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.continue-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+
+.orientation-warning i {
+    font-size: 3rem;
+    color: var(--accent-gold);
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.orientation-warning h2 {
+    color: var(--accent-gold);
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.orientation-warning p {
+    color: var(--text-light);
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+@media screen and (orientation:portrait) {
+    .content {
+        display: block !important;
+    }
+}
+
         
         /* Animated Background Elements */
         .background-elements {
@@ -677,15 +664,15 @@
     </style>
 </head>
 <body>
-     <!-- Orientation Warning -->
-    <div class="orientation-warning">
-        <i class="fas fa-sync-alt fa-spin"></i>
-        <h2>Please Rotate Your Device</h2>
-        <p>For the best viewing experience, please rotate your device to landscape mode.</p>
-        <button class="rotate-btn" onclick="rotateScreen()">
-            <i class="fas fa-rotate-right"></i> Rotate to Landscape
-        </button>
-    </div>
+<div class="orientation-warning" id="orientationWarning">
+    <i class="fas fa-sync-alt fa-spin"></i>
+    <h2>Please Rotate Your Device</h2>
+    <p>For the best viewing experience, please rotate your device to landscape mode.<br>
+    However, you may continue in portrait mode if you prefer.</p>
+    <button class="continue-btn" onclick="hideOrientationWarning()">
+        Continue in Portrait
+    </button>
+</div>
 
     <div class="background-elements">
         <div class="element"></div>
@@ -849,32 +836,32 @@
     
     <script>
 
-        // Rotate Screen Function (works on some devices)
-        function rotateScreen() {
-            try {
-                screen.orientation.lock('landscape')
-                    .catch(() => {
-                        alert("Auto-rotate not supported. Please rotate your device manually.");
-                    });
-            } catch (e) {
-                alert("Auto-rotate not supported. Please rotate your device manually.");
-            }
+// Force zoom-out on page load
+document.body.style.zoom = "80%";
+
+// Orientation warning logic
+function checkOrientation() {
+    const warning = document.getElementById('orientationWarning');
+    if (window.innerHeight > window.innerWidth) {
+        if (!sessionStorage.getItem('ignorePortraitWarning')) {
+            warning.style.display = 'flex';
         }
-        
-        // Check orientation on load and resize
-        function checkOrientation() {
-            if (window.innerHeight > window.innerWidth) {
-                document.querySelector('.orientation-warning').style.display = 'flex';
-                document.querySelector('.content').style.display = 'none';
-            } else {
-                document.querySelector('.orientation-warning').style.display = 'none';
-                document.querySelector('.content').style.display = 'block';
-            }
-        }
-        
-        // Initial check
-        window.addEventListener('load', checkOrientation);
-        window.addEventListener('resize', checkOrientation);
+    } else {
+        warning.style.display = 'none';
+    }
+}
+
+// Hide warning and allow portrait use
+function hideOrientationWarning() {
+    sessionStorage.setItem('ignorePortraitWarning', 'true');
+    document.getElementById('orientationWarning').style.display = 'none';
+}
+
+// Run check on load and resize
+window.addEventListener('load', checkOrientation);
+window.addEventListener('resize', checkOrientation);
+
+
         
         // Current state
         let warData = {
