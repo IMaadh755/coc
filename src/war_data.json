@@ -29,20 +29,6 @@
       "attack2": 8
     },
     {
-      "name": "gayan",
-      "th": 16,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "bela",
-      "th": 16,
-      "warCount": 10,
-      "attack1": 10,
-      "attack2": 10
-    },
-    {
       "name": "IMaa",
       "th": 16,
       "warCount": 9,
@@ -50,11 +36,11 @@
       "attack2": 9
     },
     {
-      "name": "$$AK Gamers$$",
+      "name": "bela",
       "th": 16,
-      "warCount": 8,
-      "attack1": 4,
-      "attack2": 2
+      "warCount": 10,
+      "attack1": 9,
+      "attack2": 9
     },
     {
       "name": "Black Cloud",
@@ -64,39 +50,32 @@
       "attack2": 10
     },
     {
-      "name": "Ayaan,Hridoy0.2",
-      "th": 15,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
       "name": "Susantha",
       "th": 15,
       "warCount": 9,
-      "attack1": 5,
-      "attack2": 4
+      "attack1": 6,
+      "attack2": 5
     },
     {
       "name": "PAMITHA_SL",
-      "th": 15,
-      "warCount": 10,
-      "attack1": 10,
-      "attack2": 10
-    },
-    {
-      "name": "Gáyashan❤️☠️",
       "th": 15,
       "warCount": 10,
       "attack1": 9,
       "attack2": 9
     },
     {
+      "name": "Gáyashan❤️☠️",
+      "th": 15,
+      "warCount": 10,
+      "attack1": 10,
+      "attack2": 10
+    },
+    {
       "name": "SL Rash FF",
       "th": 15,
       "warCount": 10,
       "attack1": 10,
-      "attack2": 8
+      "attack2": 9
     },
     {
       "name": "Grandaniket",
@@ -106,11 +85,11 @@
       "attack2": 10
     },
     {
-      "name": "S A N D I P",
+      "name": "Md Alim 1",
       "th": 15,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
+      "warCount": 4,
+      "attack1": 3,
+      "attack2": 2
     },
     {
       "name": "iMaa♡",
@@ -127,32 +106,18 @@
       "attack2": 10
     },
     {
-      "name": "KING Ronojit",
-      "th": 15,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
       "name": "psychedlic",
       "th": 15,
       "warCount": 10,
       "attack1": 10,
-      "attack2": 10
-    },
-    {
-      "name": "maduwa",
-      "th": 17,
-      "warCount": 10,
-      "attack1": 9,
       "attack2": 9
     },
     {
-      "name": "IMMORTAL",
-      "th": 16,
-      "warCount": 5,
-      "attack1": 4,
-      "attack2": 2
+      "name": "shyamal",
+      "th": 15,
+      "warCount": 2,
+      "attack1": 0,
+      "attack2": 0
     },
     {
       "name": "# NANO VISION #",
@@ -160,6 +125,13 @@
       "warCount": 10,
       "attack1": 10,
       "attack2": 10
+    },
+    {
+      "name": "✌NETHUM❤A",
+      "th": 14,
+      "warCount": 8,
+      "attack1": 6,
+      "attack2": 6
     },
     {
       "name": "SANDAMITH",
@@ -171,30 +143,23 @@
     {
       "name": "திவாகர்",
       "th": 15,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
+      "warCount": 5,
+      "attack1": 2,
+      "attack2": 2
     },
     {
       "name": "harsha",
       "th": 14,
       "warCount": 9,
-      "attack1": 9,
-      "attack2": 8
+      "attack1": 7,
+      "attack2": 7
     },
     {
       "name": "MADUSANKA. sl",
       "th": 14,
       "warCount": 10,
-      "attack1": 8,
-      "attack2": 7
-    },
-    {
-      "name": "Fearless ✨",
-      "th": 16,
-      "warCount": 9,
-      "attack1": 9,
-      "attack2": 9
+      "attack1": 10,
+      "attack2": 10
     },
     {
       "name": "[D] LUFFy 01",
@@ -204,11 +169,18 @@
       "attack2": 10
     },
     {
-      "name": "Selena",
+      "name": "Fearless ✨",
       "th": 16,
       "warCount": 9,
       "attack1": 9,
       "attack2": 9
+    },
+    {
+      "name": "Selena",
+      "th": 16,
+      "warCount": 9,
+      "attack1": 9,
+      "attack2": 8
     },
     {
       "name": "Alpha ⚓",
@@ -218,23 +190,44 @@
       "attack2": 9
     },
     {
+      "name": "DetectiveBTW",
+      "th": 14,
+      "warCount": 4,
+      "attack1": 4,
+      "attack2": 4
+    },
+    {
       "name": "pro sl gamer",
-      "th": 13,
+      "th": 14,
       "warCount": 10,
       "attack1": 7,
       "attack2": 4
     },
     {
-      "name": "THARINDU PRO©¥®",
+      "name": "ᴼᴳ LEGEND ツ",
       "th": 13,
-      "warCount": 1,
-      "attack1": 1,
-      "attack2": 1
+      "warCount": 7,
+      "attack1": 3,
+      "attack2": 3
     },
     {
       "name": "Achintha rock",
+      "th": 14,
+      "warCount": 5,
+      "attack1": 3,
+      "attack2": 2
+    },
+    {
+      "name": "THARINDU PRO©¥®",
       "th": 13,
-      "warCount": 2,
+      "warCount": 5,
+      "attack1": 2,
+      "attack2": 1
+    },
+    {
+      "name": "Animal.lk",
+      "th": 13,
+      "warCount": 3,
       "attack1": 2,
       "attack2": 2
     },
@@ -246,60 +239,144 @@
       "attack2": 7
     },
     {
-      "name": "★★★ⓛⓢⓤⓡⓤ★★★",
+      "name": "akazar",
+      "th": 12,
+      "warCount": 2,
+      "attack1": 1,
+      "attack2": 1
+    },
+    {
+      "name": "gayan",
       "th": 16,
       "warCount": 4,
+      "attack1": 3,
+      "attack2": 3
+    },
+    {
+      "name": "$$AK Gamers$$",
+      "th": 16,
+      "warCount": 7,
+      "attack1": 3,
+      "attack2": 3
+    },
+    {
+      "name": "Chandila",
+      "th": 15,
+      "warCount": 2,
+      "attack1": 2,
+      "attack2": 2
+    },
+    {
+      "name": "maduwa",
+      "th": 17,
+      "warCount": 9,
+      "attack1": 8,
+      "attack2": 8
+    },
+    {
+      "name": "مونستر",
+      "th": 14,
+      "warCount": 3,
+      "attack1": 2,
+      "attack2": 1
+    },
+    {
+      "name": "SL KaViYa™",
+      "th": 14,
+      "warCount": 7,
+      "attack1": 4,
+      "attack2": 2
+    },
+    {
+      "name": "MGE.MAVIS",
+      "th": 14,
+      "warCount": 6,
+      "attack1": 6,
+      "attack2": 5
+    },
+    {
+      "name": "messy",
+      "th": 15,
+      "warCount": 3,
       "attack1": 1,
+      "attack2": 1
+    },
+    {
+      "name": "777777",
+      "th": 15,
+      "warCount": 1,
+      "attack1": 1,
+      "attack2": 1
+    },
+    {
+      "name": "S A N D I P",
+      "th": 15,
+      "warCount": 3,
+      "attack1": 0,
       "attack2": 0
+    },
+    {
+      "name": "KING Ronojit",
+      "th": 15,
+      "warCount": 2,
+      "attack1": 0,
+      "attack2": 0
+    },
+    {
+      "name": "IMMORTAL",
+      "th": 16,
+      "warCount": 7,
+      "attack1": 4,
+      "attack2": 2
     },
     {
       "name": "nirupam",
       "th": 15,
-      "warCount": 1,
+      "warCount": 3,
+      "attack1": 0,
+      "attack2": 0
+    },
+    {
+      "name": "Alamin",
+      "th": 15,
+      "warCount": 2,
       "attack1": 0,
       "attack2": 0
     },
     {
       "name": "MAF 3",
       "th": 16,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "✌NETHUM❤A",
-      "th": 14,
-      "warCount": 7,
-      "attack1": 5,
-      "attack2": 5
-    },
-    {
-      "name": "SL KaViYa™",
-      "th": 14,
-      "warCount": 4,
-      "attack1": 3,
-      "attack2": 2
-    },
-    {
-      "name": "ᴼᴳ LEGEND ツ",
-      "th": 13,
-      "warCount": 9,
-      "attack1": 4,
-      "attack2": 3
-    },
-    {
-      "name": "Animal.lk",
-      "th": 13,
-      "warCount": 1,
+      "warCount": 3,
       "attack1": 1,
       "attack2": 1
     },
     {
-      "name": "MGE.MAVIS",
-      "th": 14,
-      "warCount": 8,
-      "attack1": 8,
-      "attack2": 7
+      "name": "A A",
+      "th": 15,
+      "warCount": 2,
+      "attack1": 0,
+      "attack2": 0
+    },
+    {
+      "name": "MR.ROGERS",
+      "th": 13,
+      "warCount": 2,
+      "attack1": 1,
+      "attack2": 1
+    },
+    {
+      "name": "★★★ⓛⓢⓤⓡⓤ★★★",
+      "th": 16,
+      "warCount": 5,
+      "attack1": 1,
+      "attack2": 0
+    },
+    {
+      "name": "Ayaan,Hridoy0.2",
+      "th": 15,
+      "warCount": 1,
+      "attack1": 0,
+      "attack2": 0
     },
     {
       "name": "DOOM",
@@ -311,9 +388,9 @@
     {
       "name": "LAKSHAN",
       "th": 17,
-      "warCount": 4,
-      "attack1": 2,
-      "attack2": 2
+      "warCount": 3,
+      "attack1": 1,
+      "attack2": 1
     },
     {
       "name": "RICKY HANDSOME",
@@ -325,145 +402,1720 @@
     {
       "name": "kiran boss",
       "th": 17,
-      "warCount": 5,
-      "attack1": 2,
-      "attack2": 2
-    },
-    {
-      "name": "亗★SL ṈȺWȺM彡★亗",
-      "th": 17,
-      "warCount": 4,
-      "attack1": 3,
-      "attack2": 3
-    },
-    {
-      "name": "⭐H I R U⭐",
-      "th": 16,
       "warCount": 1,
       "attack1": 0,
       "attack2": 0
-    },
-    {
-      "name": "yohan",
-      "th": 14,
-      "warCount": 2,
-      "attack1": 1,
-      "attack2": 0
-    },
-    {
-      "name": "milkman8844",
-      "th": 15,
-      "warCount": 2,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "#IK",
-      "th": 14,
-      "warCount": 2,
-      "attack1": 2,
-      "attack2": 2
-    },
-    {
-      "name": "My name island",
-      "th": 13,
-      "warCount": 4,
-      "attack1": 3,
-      "attack2": 3
-    },
-    {
-      "name": "DJSKHOPE",
-      "th": 13,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "°SL°Kesh€~",
-      "th": 11,
-      "warCount": 1,
-      "attack1": 1,
-      "attack2": 0
-    },
-    {
-      "name": "Exr3t",
-      "th": 17,
-      "warCount": 3,
-      "attack1": 1,
-      "attack2": 1
-    },
-    {
-      "name": "anuj",
-      "th": 14,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "Blackknight",
-      "th": 13,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "Clout_09",
-      "th": 11,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "Ghost-Leon",
-      "th": 11,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "play__SOJU",
-      "th": 11,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "SKULL HUNTER☠️",
-      "th": 10,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "xASMODEUS",
-      "th": 10,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "009",
-      "th": 10,
-      "warCount": 1,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "ESAN DEVNATH",
-      "th": 16,
-      "warCount": 2,
-      "attack1": 0,
-      "attack2": 0
-    },
-    {
-      "name": "Chandila",
-      "th": 15,
-      "warCount": 1,
-      "attack1": 1,
-      "attack2": 1
     }
   ],
   "warDetails": {
+    "7-31-25 - 4-58 PM": [
+      {
+        "name": "sameera",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "91%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Rommy",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "89%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "[D] LuFFy",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "90%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "93%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Parvez(king)",
+        "th": 16,
+        "attack1Stars": 1.0,
+        "attack1Percent": "66%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "IMaa",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "93%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "bela",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "92%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "75%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Black Cloud",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "75%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Susantha",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "96%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "PAMITHA_SL",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Gáyashan❤️☠️",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "SL Rash FF",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Grandaniket",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "92%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Md Alim 1",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "78%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "iMaa♡",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "73%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "king Parvez",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "98%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "psychedlic",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "shyamal",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "# NANO VISION #",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "✌NETHUM❤A",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "SANDAMITH",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "87%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "திவாகர்",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "83%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "86%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "harsha",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "MADUSANKA. sl",
+        "th": 14,
+        "attack1Stars": 2.0,
+        "attack1Percent": "69%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "69%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "[D] LUFFy 01",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Fearless ✨",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Selena",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Alpha ⚓",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "DetectiveBTW",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "pro sl gamer",
+        "th": 14,
+        "attack1Stars": 1.0,
+        "attack1Percent": "73%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "ᴼᴳ LEGEND ツ",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "Achintha rock",
+        "th": 14,
+        "attack1Stars": 1.0,
+        "attack1Percent": "64%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": null,
+        "attack2Percent": "32%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "THARINDU PRO©¥®",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Animal.lk",
+        "th": 13,
+        "attack1Stars": 2.0,
+        "attack1Percent": "73%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "79%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Healer",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "88%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "akazar",
+        "th": 12,
+        "attack1Stars": null,
+        "attack1Percent": "46%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      }
+    ],
+    "7-29-25 - 5-41 PM": [
+      {
+        "name": "sameera",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "75%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Rommy",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "80%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "90%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "[D] LuFFy",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "97%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Parvez(king)",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "70%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "73%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "gayan",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "98%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "IMaa",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "91%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "bela",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "$$AK Gamers$$",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Black Cloud",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "99%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Susantha",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "PAMITHA_SL",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Gáyashan❤️☠️",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Chandila",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "74%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "SL Rash FF",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "Grandaniket",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "91%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Md Alim 1",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "iMaa♡",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "89%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "king Parvez",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "93%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "97%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "psychedlic",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "99%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "93%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "maduwa",
+        "th": 17,
+        "attack1Stars": 1.0,
+        "attack1Percent": "71%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "96%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "مونستر",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "# NANO VISION #",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "86%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "✌NETHUM❤A",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "99%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "SL KaViYa™",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "SANDAMITH",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "99%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "திவாகர்",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "harsha",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "71%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "MADUSANKA. sl",
+        "th": 14,
+        "attack1Stars": 2.0,
+        "attack1Percent": "58%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Fearless ✨",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "52%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Selena",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "[D] LUFFy 01",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Alpha ⚓",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "MGE.MAVIS",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "pro sl gamer",
+        "th": 14,
+        "attack1Stars": 1.0,
+        "attack1Percent": "84%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "DetectiveBTW",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "67%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "messy",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "ᴼᴳ LEGEND ツ",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "THARINDU PRO©¥®",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Healer",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "82%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "akazar",
+        "th": 12,
+        "attack1Stars": 1.0,
+        "attack1Percent": "70%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 9.0
+      }
+    ],
+    "7-27-25 - 6-09 PM": [
+      {
+        "name": "sameera",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "99%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "91%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Rommy",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "89%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "[D] LuFFy",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "99%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Parvez(king)",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "92%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "gayan",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "78%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "66%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "bela",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "52%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "62%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "$$AK Gamers$$",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "69%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "IMaa",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Black Cloud",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Susantha",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "PAMITHA_SL",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "777777",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "95%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Gáyashan❤️☠️",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "74%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "77%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "SL Rash FF",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "77%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "89%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Chandila",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Grandaniket",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Md Alim 1",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "94%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "71%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "S A N D I P",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "iMaa♡",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "91%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "king Parvez",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "39%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "KING Ronojit",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "psychedlic",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "maduwa",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "91%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "shyamal",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "IMMORTAL",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "nirupam",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Alamin",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "مونستر",
+        "th": 14,
+        "attack1Stars": 2.0,
+        "attack1Percent": "74%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "# NANO VISION #",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "MAF 3",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "✌NETHUM❤A",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "SANDAMITH",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "SL KaViYa™",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "திவாகர்",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "74%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 11.0
+      },
+      {
+        "name": "harsha",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "MADUSANKA. sl",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 14.0
+      },
+      {
+        "name": "Fearless ✨",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Selena",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "98%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "[D] LUFFy 01",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "94%",
+        "attack1EnemyTH": 14.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "Alpha ⚓",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "MGE.MAVIS",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 11.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 11.0
+      },
+      {
+        "name": "messy",
+        "th": 15,
+        "attack1Stars": 1.0,
+        "attack1Percent": "16%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "DetectiveBTW",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 13.0
+      },
+      {
+        "name": "pro sl gamer",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "THARINDU PRO©¥®",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Animal.lk",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "A A",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "MR.ROGERS",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 9.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 10.0
+      },
+      {
+        "name": "Achintha rock",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Healer",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 13.0
+      }
+    ],
+    "7-25-25 - 6-14 PM": [
+      {
+        "name": "sameera",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Rommy",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "[D] LuFFy",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Parvez(king)",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "91%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "gayan",
+        "th": 16,
+        "attack1Stars": 1.0,
+        "attack1Percent": "94%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "83%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "bela",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "$$AK Gamers$$",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "IMaa",
+        "th": 16,
+        "attack1Stars": 1.0,
+        "attack1Percent": "96%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Black Cloud",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "80%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "62%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Susantha",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "85%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "PAMITHA_SL",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 1.0,
+        "attack2Percent": "7%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "Gáyashan❤️☠️",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "84%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "93%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "★★★ⓛⓢⓤⓡⓤ★★★",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "SL Rash FF",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "Grandaniket",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Md Alim 1",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": null,
+        "attack2Percent": "45%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "S A N D I P",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "iMaa♡",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "king Parvez",
+        "th": 15,
+        "attack1Stars": 2.0,
+        "attack1Percent": "73%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "54%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "psychedlic",
+        "th": 15,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "maduwa",
+        "th": 17,
+        "attack1Stars": 2.0,
+        "attack1Percent": "99%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "IMMORTAL",
+        "th": 16,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "nirupam",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "مونستر",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Alamin",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "# NANO VISION #",
+        "th": 17,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "50%",
+        "attack2EnemyTH": 17.0
+      },
+      {
+        "name": "MAF 3",
+        "th": 16,
+        "attack1Stars": 2.0,
+        "attack1Percent": "67%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "58%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "✌NETHUM❤A",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "SANDAMITH",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "SL KaViYa™",
+        "th": 14,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "திவாகர்",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "harsha",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "MADUSANKA. sl",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 16.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "Fearless ✨",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Selena",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "[D] LUFFy 01",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 15.0
+      },
+      {
+        "name": "Alpha ⚓",
+        "th": 16,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 17.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "messy",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": "0%",
+        "attack1EnemyTH": 12.0,
+        "attack2Stars": 2.0,
+        "attack2Percent": "99%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "DetectiveBTW",
+        "th": 14,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 16.0
+      },
+      {
+        "name": "pro sl gamer",
+        "th": 13,
+        "attack1Stars": 1.0,
+        "attack1Percent": "81%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 12.0
+      },
+      {
+        "name": "THARINDU PRO©¥®",
+        "th": 13,
+        "attack1Stars": 3.0,
+        "attack1Percent": "100%",
+        "attack1EnemyTH": 13.0,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "A A",
+        "th": 15,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "MR.ROGERS",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Achintha rock",
+        "th": 13,
+        "attack1Stars": null,
+        "attack1Percent": null,
+        "attack1EnemyTH": null,
+        "attack2Stars": null,
+        "attack2Percent": null,
+        "attack2EnemyTH": null
+      },
+      {
+        "name": "Healer",
+        "th": 13,
+        "attack1Stars": 2.0,
+        "attack1Percent": "89%",
+        "attack1EnemyTH": 15.0,
+        "attack2Stars": 3.0,
+        "attack2Percent": "100%",
+        "attack2EnemyTH": 13.0
+      }
+    ],
     "7-23-25 - 4-25 PM": [
       {
         "name": "sameera",
@@ -2424,1564 +4076,6 @@
         "attack2Stars": 3.0,
         "attack2Percent": "100%",
         "attack2EnemyTH": 15.0
-      }
-    ],
-    "7-1-25 - 7-36 PM": [
-      {
-        "name": "sameera",
-        "th": 17,
-        "attack1Stars": 2.0,
-        "attack1Percent": "87%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "Rommy",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "90%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "[D] LuFFy",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "$$AK Gamers$$",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "96%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Parvez(king)",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "65%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "95%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "IMaa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "bela",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "亗★SL ṈȺWȺM彡★亗",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "76%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "kiran boss",
-        "th": 17,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Susantha",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Black Cloud",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "PAMITHA_SL",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Gáyashan❤️☠️",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "83%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "SL Rash FF",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "Grandaniket",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "iMaa♡",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "79%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "psychedlic",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "93%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "88%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "king Parvez",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "⭐H I R U⭐",
-        "th": 16,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "LAKSHAN",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "97%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "maduwa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "✌NETHUM❤A",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "# NANO VISION #",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "96%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "SANDAMITH",
-        "th": 14,
-        "attack1Stars": 2.0,
-        "attack1Percent": "97%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "yohan",
-        "th": 14,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "milkman8844",
-        "th": 15,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "#IK",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "85%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "harsha",
-        "th": 14,
-        "attack1Stars": 2.0,
-        "attack1Percent": "95%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "65%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "[D] LUFFy 01",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Fearless ✨",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "88%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "23%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Selena",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "79%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "23%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "MADUSANKA. sl",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Alpha ⚓",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "92%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "ᴼᴳ LEGEND ツ",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "My name island",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 11.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 12.0
-      },
-      {
-        "name": "pro sl gamer",
-        "th": 13,
-        "attack1Stars": 2.0,
-        "attack1Percent": "85%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "MGE.MAVIS",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "DJSKHOPE",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Healer",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "°SL°Kesh€~",
-        "th": 11,
-        "attack1Stars": 1.0,
-        "attack1Percent": "86%",
-        "attack1EnemyTH": 11.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      }
-    ],
-    "6-29-25 - 7-30 PM": [
-      {
-        "name": "sameera",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Rommy",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "[D] LuFFy",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "87%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "$$AK Gamers$$",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "93%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Parvez(king)",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "62%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "IMaa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "bela",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "kiran boss",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "68%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "亗★SL ṈȺWȺM彡★亗",
-        "th": 17,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Susantha",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "80%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Black Cloud",
-        "th": 15,
-        "attack1Stars": 1.0,
-        "attack1Percent": "99%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "80%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "PAMITHA_SL",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Gáyashan❤️☠️",
-        "th": 15,
-        "attack1Stars": 1.0,
-        "attack1Percent": "62%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "SL Rash FF",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Grandaniket",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "Exr3t",
-        "th": 17,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "iMaa♡",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "king Parvez",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "94%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "81%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "psychedlic",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "70%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "97%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "maduwa",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "55%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "anuj",
-        "th": 14,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "✌NETHUM❤A",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "# NANO VISION #",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "67%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "SANDAMITH",
-        "th": 14,
-        "attack1Stars": 2.0,
-        "attack1Percent": "78%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "milkman8844",
-        "th": 15,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "yohan",
-        "th": 14,
-        "attack1Stars": 1.0,
-        "attack1Percent": "96%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "#IK",
-        "th": 14,
-        "attack1Stars": 1.0,
-        "attack1Percent": "95%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "85%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "[D] LUFFy 01",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "88%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Fearless ✨",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "harsha",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Selena",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "MADUSANKA. sl",
-        "th": 13,
-        "attack1Stars": 2.0,
-        "attack1Percent": "65%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "88%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Alpha ⚓",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "90%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "ᴼᴳ LEGEND ツ",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 11.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "84%",
-        "attack2EnemyTH": 12.0
-      },
-      {
-        "name": "My name island",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "pro sl gamer",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 12.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 12.0
-      },
-      {
-        "name": "MGE.MAVIS",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Blackknight",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Healer",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 12.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "69%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Clout_09",
-        "th": 11,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Ghost-Leon",
-        "th": 11,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "play__SOJU",
-        "th": 11,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "SKULL HUNTER☠️",
-        "th": 10,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "xASMODEUS",
-        "th": 10,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "009",
-        "th": 10,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      }
-    ],
-    "6-27-25 - 11-13 AM": [
-      {
-        "name": "sameera",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "79%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "Rommy",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "[D] LuFFy",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "74%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "76%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "$$AK Gamers$$",
-        "th": 16,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Parvez(king)",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "IMaa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "bela",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "97%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "94%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "ESAN DEVNATH",
-        "th": 16,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "kiran boss",
-        "th": 17,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "亗★SL ṈȺWȺM彡★亗",
-        "th": 17,
-        "attack1Stars": 1.0,
-        "attack1Percent": "80%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "57%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Susantha",
-        "th": 15,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Black Cloud",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "96%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "PAMITHA_SL",
-        "th": 15,
-        "attack1Stars": 1.0,
-        "attack1Percent": "92%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "89%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Gáyashan❤️☠️",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "89%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "SL Rash FF",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "74%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "78%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Grandaniket",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Exr3t",
-        "th": 17,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "iMaa♡",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "king Parvez",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "71%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "psychedlic",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "maduwa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 12.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "87%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "✌NETHUM❤A",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "79%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "# NANO VISION #",
-        "th": 16,
-        "attack1Stars": 1.0,
-        "attack1Percent": "58%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "57%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "SANDAMITH",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "[D] LUFFy 01",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "96%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Fearless ✨",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "95%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "harsha",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Selena",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "MADUSANKA. sl",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Alpha ⚓",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "91%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "ᴼᴳ LEGEND ツ",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 11.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "My name island",
-        "th": 13,
-        "attack1Stars": 2.0,
-        "attack1Percent": "99%",
-        "attack1EnemyTH": 12.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 12.0
-      },
-      {
-        "name": "pro sl gamer",
-        "th": 13,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "MGE.MAVIS",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 12.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "Healer",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      }
-    ],
-    "6-24-25 - 6-04 PM": [
-      {
-        "name": "sameera",
-        "th": 17,
-        "attack1Stars": 2.0,
-        "attack1Percent": "91%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Rommy",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "86%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "[D] LuFFy",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "$$AK Gamers$$",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Parvez(king)",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "94%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "96%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "IMaa",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "bela",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "99%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "ESAN DEVNATH",
-        "th": 16,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Susantha",
-        "th": 15,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "亗★SL ṈȺWȺM彡★亗",
-        "th": 17,
-        "attack1Stars": 2.0,
-        "attack1Percent": "99%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "85%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "kiran boss",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "79%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Black Cloud",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "88%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "PAMITHA_SL",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "Gáyashan❤️☠️",
-        "th": 15,
-        "attack1Stars": null,
-        "attack1Percent": null,
-        "attack1EnemyTH": null,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "SL Rash FF",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "66%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "92%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Chandila",
-        "th": 15,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "63%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Exr3t",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "iMaa♡",
-        "th": 17,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "king Parvez",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "93%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "26%",
-        "attack2EnemyTH": 17.0
-      },
-      {
-        "name": "psychedlic",
-        "th": 15,
-        "attack1Stars": 1.0,
-        "attack1Percent": "78%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "Grandaniket",
-        "th": 15,
-        "attack1Stars": 2.0,
-        "attack1Percent": "99%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "maduwa",
-        "th": 16,
-        "attack1Stars": 2.0,
-        "attack1Percent": "97%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "# NANO VISION #",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "SANDAMITH",
-        "th": 14,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "93%",
-        "attack2EnemyTH": 14.0
-      },
-      {
-        "name": "[D] LUFFy 01",
-        "th": 16,
-        "attack1Stars": 1.0,
-        "attack1Percent": "75%",
-        "attack1EnemyTH": 16.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "harsha",
-        "th": 13,
-        "attack1Stars": 2.0,
-        "attack1Percent": "52%",
-        "attack1EnemyTH": 14.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Fearless ✨",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "Selena",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 17.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "MADUSANKA. sl",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 10.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "Alpha ⚓",
-        "th": 16,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 16.0
-      },
-      {
-        "name": "ᴼᴳ LEGEND ツ",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 10.0,
-        "attack2Stars": 1.0,
-        "attack2Percent": "56%",
-        "attack2EnemyTH": 15.0
-      },
-      {
-        "name": "My name island",
-        "th": 13,
-        "attack1Stars": 2.0,
-        "attack1Percent": "98%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 2.0,
-        "attack2Percent": "76%",
-        "attack2EnemyTH": 13.0
-      },
-      {
-        "name": "pro sl gamer",
-        "th": 13,
-        "attack1Stars": 1.0,
-        "attack1Percent": "70%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": null,
-        "attack2Percent": null,
-        "attack2EnemyTH": null
-      },
-      {
-        "name": "MGE.MAVIS",
-        "th": 13,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 15.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 12.0
-      },
-      {
-        "name": "Healer",
-        "th": 12,
-        "attack1Stars": 3.0,
-        "attack1Percent": "100%",
-        "attack1EnemyTH": 13.0,
-        "attack2Stars": 3.0,
-        "attack2Percent": "100%",
-        "attack2EnemyTH": 13.0
       }
     ]
   }
