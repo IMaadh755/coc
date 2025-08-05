@@ -359,14 +359,22 @@
         .filter-controls {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 25px;
+            gap: 10px;
+            margin-bottom: 20px;
             align-items: center;
             background: rgba(28, 42, 68, 0.7);
             padding: 20px;
             border-radius: 15px;
             border: 1px solid rgba(255, 215, 0, 0.2);
         }
+
+        .filter-controls select, .filter-controls input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-gold);
+    background: rgba(18, 24, 38, 0.8);
+    color: white;
+}
         
         .filter-controls input, .filter-controls select {
             padding: 12px 20px;
@@ -387,10 +395,10 @@
         }
         
         .filter-controls button {
-            background: linear-gradient(135deg, var(--accent-gold), #d4af37);
+            background: var(--accent-gold);;
             color: var(--primary-dark);
             border: none;
-            padding: 12px 25px;
+            padding: 8px 16px;
             border-radius: 8px;
             cursor: pointer;
             font-family: 'Orbitron', sans-serif;
@@ -637,6 +645,25 @@
                 font-size: 0.95rem;
             }
         }
+
+@media (max-width: 768px) {
+    .result-label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    .result-label .emoji {
+        font-size: 1.5em;
+        margin-bottom: 2px;
+    }
+    
+    .result-label .text {
+        white-space: nowrap;
+    }
+}
         
         @media (max-width: 480px) {
             h1 {
@@ -661,6 +688,18 @@
                 font-size: 1rem;
             }
         }
+
+.membership-status {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 0.8em;
+}
+.membership-status.active {
+    color: var(--accent-green);
+}
+.membership-status.inactive {
+    color: var(--accent-red);
+}
     </style>
 </head>
 <body>
@@ -730,27 +769,38 @@
             </div>
             
             <div class="filter-controls">
-                <input type="text" id="summary-search" placeholder="Search by name..." onkeyup="filterSummaryTable()">
-                <select id="summary-th-filter" onchange="filterSummaryTable()">
-                    <option value="">All Town Halls</option>
-                    <option value="17">TH17</option>
-                    <option value="16">TH16</option>
-                    <option value="15">TH15</option>
-                    <option value="14">TH14</option>
-                    <option value="13">TH13</option>
-                    <option value="11">TH11</option>
-                    <option value="10">TH10</option>
-                </select>
-                <select id="summary-result-filter" onchange="filterSummaryTable()">
-                    <option value="">All Results</option>
-                    <option value="Excellent">Excellent</option>
-                    <option value="Good">Good</option>
-                    <option value="Warning">Warning</option>
-                    <option value="Kickout">Kickout</option>
-                    <option value="Toxic">Toxic</option>
-                </select>
-                <button onclick="resetSummaryFilters()">Reset Filters</button>
-            </div>
+    <!-- Only one search input -->
+    <input type="text" id="summary-search" placeholder="Search by name..." onkeyup="filterSummaryTable()">
+    
+    <!-- Only one TH filter -->
+    <select id="summary-th-filter" onchange="filterSummaryTable()">
+        <option value="">All Town Halls</option>
+        <option value="17">TH17</option>
+        <option value="16">TH16</option>
+        <option value="15">TH15</option>
+        <option value="14">TH14</option>
+        <option value="13">TH13</option>
+        <option value="11">TH11</option>
+        <option value="10">TH10</option>
+    </select>
+    
+    <!-- Star rating filter -->
+    <select id="summary-star-filter" onchange="filterSummaryTable()">
+    <option value="">All Ratings</option>
+    <option value="Legend">🏆 War Legend</option>
+    <option value="Warrior">⚔️ Warrior</option>
+    <option value="Weak">⚠️ Weak</option>
+</select>
+    
+    <!-- Status filter -->
+    <select id="summary-status-filter" onchange="filterSummaryTable()">
+        <option value="">All Statuses</option>
+        <option value="active">In Clan</option>
+        <option value="inactive">Left Clan</option>
+    </select>
+    
+    <button onclick="resetSummaryFilters()">Reset Filters</button>
+</div>
             
             <div class="table-container">
                 <table id="summary-table">
@@ -762,7 +812,8 @@
                             <th onclick="sortSummaryTable(3)">Attack 1 <i class="fas fa-sort"></i></th>
                             <th onclick="sortSummaryTable(4)">Attack 2 <i class="fas fa-sort"></i></th>
                             <th>Avg Stars</th>
-                            <th onclick="sortSummaryTable(6)">Results <i class="fas fa-sort"></i></th>
+                            <th>Total Stars</th>
+                            <th onclick="sortSummaryTable(7)">Results <i class="fas fa-sort"></i></th>
                         </tr>
                     </thead>
                     <tbody id="summary-data">
@@ -780,28 +831,6 @@
             </div>
             
             <h2 id="war-report-title">War Details</h2>
-            
-            <div class="filter-controls">
-                <input type="text" id="war-search" placeholder="Search by name..." onkeyup="filterWarTable()">
-                <select id="war-th-filter" onchange="filterWarTable()">
-                    <option value="">All Town Halls</option>
-                    <option value="17">TH17</option>
-                    <option value="16">TH16</option>
-                    <option value="15">TH15</option>
-                    <option value="14">TH14</option>
-                    <option value="13">TH13</option>
-                    <option value="11">TH11</option>
-                    <option value="10">TH10</option>
-                </select>
-                <select id="war-stars-filter" onchange="filterWarTable()">
-                    <option value="">All Stars</option>
-                    <option value="3">3 Stars</option>
-                    <option value="2">2 Stars</option>
-                    <option value="1">1 Star</option>
-                    <option value="0">0 Stars</option>
-                </select>
-                <button onclick="resetWarFilters()">Reset Filters</button>
-            </div>
             
             <div class="table-container">
                 <table id="war-table">
@@ -880,21 +909,13 @@ window.addEventListener('resize', checkOrientation);
             
             setTimeout(() => {
                 fetch('war_data.json')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-                        return response.json();
-                    })
+                    .then(response => response.json())
                     .then(data => {
                         warData = data;
                         document.getElementById('loader').style.display = 'none';
-                        
-                        // Always render summary
                         renderSummaryTable();
                         updateSummaryStats();
                         
-                        // If we have war details, initialize them
                         if (Object.keys(warData.warDetails).length > 0) {
                             populateWarSelector();
                             currentWar = Object.keys(warData.warDetails)[0];
@@ -908,30 +929,81 @@ window.addEventListener('resize', checkOrientation);
                         document.getElementById('loader').style.display = 'none';
                         alert('Failed to load war data. Please check console for details.');
                     });
-            }, 1500); // Simulate loading time for demo
+            }, 1500);
         });
+
+        function calculatePlayerStarStats(playerName) {
+    let stats = {
+        wars: 0,
+        attack1Count: 0,
+        attack2Count: 0,
+        totalStars: 0,
+        totalPossibleStars: 0
+    };
+    
+    Object.values(warData.warDetails).forEach(war => {
+        const warPlayer = war.find(p => p.name === playerName);
+        if (!warPlayer) return;
+        
+        stats.wars++;
+        
+        // Attack 1: Count stars (null = 0) but always count as possible
+        stats.totalPossibleStars += 3; // Max possible per attack
+        if (warPlayer.attack1Stars !== null) {
+            stats.attack1Count++;
+            stats.totalStars += warPlayer.attack1Stars;
+        }
+        
+        // Attack 2: Same logic
+        stats.totalPossibleStars += 3; // Max possible per attack
+        if (warPlayer.attack2Stars !== null) {
+            stats.attack2Count++;
+            stats.totalStars += warPlayer.attack2Stars;
+        }
+    });
+    
+    return stats;
+}
         
         // Calculate player result based on participation
         function calculatePlayerResult(player) {
-            const totalPossibleAttacks = player.warCount * 2;
-            const totalAttacks = player.attack1 + player.attack2;
-            const missedAttacks = totalPossibleAttacks - totalAttacks;
-            
-            // Calculate percentage of missed attacks
-            const missedPercentage = (missedAttacks / totalPossibleAttacks) * 100;
-            
-            if (missedAttacks <= 0) {
-                return { status: "Excellent", class: "result-Excellent", icon: "fa-trophy" };
-            } else if (missedPercentage <= 25) {
-                return { status: "Good", class: "result-good", icon: "fa-thumbs-up" };
-            } else if (missedPercentage <= 50) {
-                return { status: "Warning", class: "result-warning", icon: "fa-exclamation-triangle" };
-            } else if (missedPercentage <= 75) {
-                return { status: "Kickout", class: "result-kickout", icon: "fa-user-times" };
-            } else {
-                return { status: "Toxic", class: "result-toxic", icon: "fa-skull" };
-            }
-        }
+    const stats = calculatePlayerStarStats(player.name);
+    const starsPercentage = stats.totalPossibleStars > 0 
+        ? (stats.totalStars / stats.totalPossibleStars) * 100 
+        : 0;
+    
+    if (starsPercentage >= 85) {
+        return { 
+            status: "🏆 War Legend", 
+            class: "result-Excellent", 
+            icon: "fa-trophy",
+            emoji: "🏆",
+            text: "War Legend"
+        };
+    } else if (starsPercentage >= 50) {
+        return { 
+            status: "⚔️ Warrior", 
+            class: "result-good", 
+            icon: "fa-shield-alt",
+            emoji: "⚔️",
+            text: "Warrior"
+        };
+    } else {
+        return { 
+            status: "⚠️ Weak", 
+            class: "result-warning", 
+            icon: "fa-exclamation-triangle",
+            emoji: "⚠️ ",
+            text: "Weak"
+        };
+    }
+}
+
+
+function isPlayerActive(playerName) {
+    const recentWars = Object.values(warData.warDetails).slice(0, 2);
+    return recentWars.some(war => war.some(p => p.name === playerName));
+}
         
         // Populate the war selector dropdown
         function populateWarSelector() {
@@ -988,36 +1060,49 @@ window.addEventListener('resize', checkOrientation);
 
         // Render summary table
         function renderSummaryTable() {
-            const tbody = document.getElementById('summary-data');
-            tbody.innerHTML = '';
-            
-            // Sort data
-            const sortedData = [...warData.summary].sort((a, b) => {
-                const valA = getSortValue(a, summarySortColumn);
-                const valB = getSortValue(b, summarySortColumn);
-                return summarySortDirection * (valA > valB ? 1 : valA < valB ? -1 : 0);
-            });
-            
-            sortedData.forEach(player => {
-                const avgStars = ((player.attack1 + player.attack2) / (2 * player.warCount)).toFixed(2);
-                const result = calculatePlayerResult(player);
-                
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${player.name}</td>
-                    <td>TH${player.th}</td>
-                    <td>${player.warCount}</td>
-                    <td>${player.attack1}</td>
-                    <td>${player.attack2}</td>
-                    <td>${avgStars}</td>
-                    <td class="${result.class}">
-                        <i class="fas ${result.icon} result-icon"></i>
-                        ${result.status}
-                    </td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
+    const tbody = document.getElementById('summary-data');
+    tbody.innerHTML = '';
+    
+    const sortedData = [...warData.summary].sort((a, b) => {
+        const valA = getSortValue(a, summarySortColumn);
+        const valB = getSortValue(b, summarySortColumn);
+        return summarySortDirection * (valA > valB ? 1 : valA < valB ? -1 : 0);
+    });
+    
+    sortedData.forEach(player => {
+        const stats = calculatePlayerStarStats(player.name);
+        const avgStars = (stats.attack1Count + stats.attack2Count) > 0 
+            ? (stats.totalStars / (stats.attack1Count + stats.attack2Count)).toFixed(2) 
+            : '0.00';
+        
+        const totalPossibleStars = stats.wars * 6;
+        const result = calculatePlayerResult(player);
+        const isActive = isPlayerActive(player.name);
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>
+                <span class="membership-status ${isActive ? 'active' : 'inactive'}">
+                    <i class="fas fa-circle"></i>
+                </span>
+                ${player.name}
+            </td>
+            <td>TH${player.th}</td>
+            <td>${stats.wars}</td>
+            <td>${stats.attack1Count}</td>
+            <td>${stats.attack2Count}</td>
+            <td>${avgStars}</td>
+            <td>${stats.totalStars}/${totalPossibleStars}</td>
+            <td class="${result.class}">
+        <div class="result-label">
+            <span class="emoji">${result.emoji}</span>
+            <span class="text">${result.text}</span>
+        </div>
+    </td>
+`;
+        tbody.appendChild(row);
+    });
+}
         
         // Render war table
         function renderWarTable() {
@@ -1060,77 +1145,79 @@ window.addEventListener('resize', checkOrientation);
         }
         
         // Update summary statistics
-        function updateSummaryStats() {
-            const totalWars = Math.max(...warData.summary.map(p => p.warCount));
-            const totalAttacks = warData.summary.reduce((sum, p) => sum + p.attack1 + p.attack2, 0);
-            const totalWarCounts = warData.summary.reduce((sum, p) => sum + p.warCount, 0);
+function updateSummaryStats() {
+    // Calculate total wars (using warDetails for accuracy)
+    const totalWars = Object.keys(warData.warDetails).length;
+    
+    // Calculate total attacks and war counts from summary data
+    const totalAttacks = warData.summary.reduce((sum, p) => sum + p.attack1 + p.attack2, 0);
+    const totalWarCounts = warData.summary.reduce((sum, p) => sum + p.warCount, 0);
+    
+    // Calculate average stars and destruction from warDetails
+    let totalStars = 0;
+    let totalAttacksWithStars = 0;
+    let totalPercent = 0;
+    let totalAttacksWithPercent = 0;
+    
+    Object.values(warData.warDetails).forEach(war => {
+        war.forEach(player => {
+            // Stars calculation
+            if (player.attack1Stars !== null && player.attack1Stars !== undefined) {
+                totalStars += parseFloat(player.attack1Stars) || 0;
+                totalAttacksWithStars++;
+            }
+            if (player.attack2Stars !== null && player.attack2Stars !== undefined) {
+                totalStars += parseFloat(player.attack2Stars) || 0;
+                totalAttacksWithStars++;
+            }
             
-            document.getElementById('total-wars').textContent = totalWars;
-            document.getElementById('avg-attacks').textContent = (totalAttacks / (totalWarCounts * 2)).toFixed(2);
-            
-            // Calculate average stars across all wars
-            let totalStars = 0;
-            let totalAttacksWithStars = 0;
-            
-            Object.values(warData.warDetails).forEach(war => {
-                war.forEach(player => {
-                    if (player.attack1Stars !== null && player.attack1Stars !== undefined) {
-                        totalStars += parseFloat(player.attack1Stars) || 0;
-                        totalAttacksWithStars++;
-                    }
-                    if (player.attack2Stars !== null && player.attack2Stars !== undefined) {
-                        totalStars += parseFloat(player.attack2Stars) || 0;
-                        totalAttacksWithStars++;
-                    }
-                });
-            });
-            
-            const avgStars = totalAttacksWithStars > 0 ? (totalStars / totalAttacksWithStars).toFixed(2) : 0;
-            document.getElementById('avg-stars').textContent = avgStars;
-            
-            // Calculate average destruction
-            let totalPercent = 0;
-            let totalAttacksWithPercent = 0;
-            
-            Object.values(warData.warDetails).forEach(war => {
-                war.forEach(player => {
-                    if (player.attack1Percent) {
-                        const percent = parseInt(player.attack1Percent) || 0;
-                        totalPercent += percent;
-                        totalAttacksWithPercent++;
-                    }
-                    if (player.attack2Percent) {
-                        const percent = parseInt(player.attack2Percent) || 0;
-                        totalPercent += percent;
-                        totalAttacksWithPercent++;
-                    }
-                });
-            });
-            
-            const avgPercent = totalAttacksWithPercent > 0 ? Math.round(totalPercent / totalAttacksWithPercent) : 0;
-            document.getElementById('avg-percent').textContent = `${avgPercent}%`;
-        }
+            // Destruction percentage calculation
+            if (player.attack1Percent) {
+                const percent = parseInt(player.attack1Percent) || 0;
+                totalPercent += percent;
+                totalAttacksWithPercent++;
+            }
+            if (player.attack2Percent) {
+                const percent = parseInt(player.attack2Percent) || 0;
+                totalPercent += percent;
+                totalAttacksWithPercent++;
+            }
+        });
+    });
+    
+    // Update the UI
+    document.getElementById('total-wars').textContent = totalWars;
+    document.getElementById('avg-attacks').textContent = (totalAttacks / (totalWarCounts * 2)).toFixed(2);
+    document.getElementById('avg-stars').textContent = totalAttacksWithStars > 0 ? (totalStars / totalAttacksWithStars).toFixed(2) : '0.00';
+    document.getElementById('avg-percent').textContent = totalAttacksWithPercent > 0 ? `${Math.round(totalPercent / totalAttacksWithPercent)}%` : '0%';
+}
         
         // Filter summary table
         function filterSummaryTable() {
-            const searchTerm = document.getElementById('summary-search').value.toLowerCase();
-            const thFilter = document.getElementById('summary-th-filter').value;
-            const resultFilter = document.getElementById('summary-result-filter').value;
-            
-            const rows = document.querySelectorAll('#summary-data tr');
-            
-            rows.forEach(row => {
-                const name = row.cells[0].textContent.toLowerCase();
-                const th = row.cells[1].textContent;
-                const result = row.cells[6].textContent;
-                
-                const matchesSearch = name.includes(searchTerm);
-                const matchesTH = !thFilter || th === `TH${thFilter}`;
-                const matchesResult = !resultFilter || result.includes(resultFilter);
-                
-                row.style.display = matchesSearch && matchesTH && matchesResult ? '' : 'none';
-            });
-        }
+    const searchTerm = document.getElementById('summary-search').value.toLowerCase();
+    const thFilter = document.getElementById('summary-th-filter').value;
+    const starFilter = document.getElementById('summary-star-filter').value; // Changed from result-filter
+    const statusFilter = document.getElementById('summary-status-filter').value;
+    
+    const rows = document.querySelectorAll('#summary-data tr');
+    
+    rows.forEach(row => {
+        const name = row.cells[0].textContent.toLowerCase();
+        const th = row.cells[1].textContent;
+        const result = row.cells[7].textContent;
+        const status = row.cells[0].querySelector('.membership-status').classList.contains('active') ? 'active' : 'inactive';
+        
+        const matchesSearch = name.includes(searchTerm);
+        const matchesTH = !thFilter || th === `TH${thFilter}`;
+        const matchesStar = !starFilter || 
+            (starFilter === 'Legend' && result.includes('🏆')) ||
+            (starFilter === 'Warrior' && result.includes('⚔️')) ||
+            (starFilter === 'Weak' && result.includes('⚠️'));
+        const matchesStatus = !statusFilter || status === statusFilter;
+        
+        row.style.display = matchesSearch && matchesTH && matchesStar && matchesStatus ? '' : 'none';
+    });
+}
         
         // Filter war table
         function filterWarTable() {
@@ -1158,11 +1245,13 @@ window.addEventListener('resize', checkOrientation);
         
         // Reset summary filters
         function resetSummaryFilters() {
-            document.getElementById('summary-search').value = '';
-            document.getElementById('summary-th-filter').value = '';
-            document.getElementById('summary-result-filter').value = '';
-            filterSummaryTable();
-        }
+    document.getElementById('summary-search').value = '';
+    document.getElementById('summary-th-filter').value = '';
+    document.getElementById('summary-star-filter').value = ''; // Changed from result-filter
+    document.getElementById('summary-status-filter').value = '';
+    filterSummaryTable();
+}
+
         
         // Reset war filters
         function resetWarFilters() {
@@ -1196,16 +1285,22 @@ window.addEventListener('resize', checkOrientation);
         
         // Helper function to get sort value for summary table
         function getSortValue(player, columnIndex) {
-            switch (columnIndex) {
-                case 0: return player.name.toLowerCase();
-                case 1: return player.th;
-                case 2: return player.warCount;
-                case 3: return player.attack1;
-                case 4: return player.attack2;
-                case 6: return calculatePlayerResult(player).status;
-                default: return 0;
-            }
-        }
+    const stats = calculatePlayerStarStats(player.name);
+    const isActive = isPlayerActive(player.name);
+    
+    switch (columnIndex) {
+        case 0: return player.name.toLowerCase();
+        case 1: return player.th;
+        case 2: return stats.wars;
+        case 3: return stats.attack1Count;
+        case 4: return stats.attack2Count;
+        case 5: return parseFloat(stats.totalStars / (stats.attack1Count + stats.attack2Count));
+        case 6: return stats.totalStars; // Sort by actual stars
+        case 7: return calculatePlayerResult(player).status;
+        case 8: return isActive ? 1 : 0; // Sort by status
+        default: return 0;
+    }
+}
         
         // Helper function to get sort value for war table
         function getWarSortValue(player, columnIndex) {
